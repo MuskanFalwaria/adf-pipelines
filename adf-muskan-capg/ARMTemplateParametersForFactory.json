@@ -11,6 +11,9 @@
 		"BlobStorageProducts_connectionString": {
 			"value": ""
 		},
+		"AzureSqlCustomerDatabase_password": {
+			"value": ""
+		},
 		"AdvWorksDb_properties_typeProperties_server": {
 			"value": "azure-sql-server.database.windows.net"
 		},
@@ -18,6 +21,15 @@
 			"value": "muskan-sql-db"
 		},
 		"AdvWorksDb_properties_typeProperties_userName": {
+			"value": "muskan"
+		},
+		"AzureSqlCustomerDatabase_properties_typeProperties_server": {
+			"value": "azure-sql-server.database.windows.net"
+		},
+		"AzureSqlCustomerDatabase_properties_typeProperties_database": {
+			"value": "muskan-sql-db"
+		},
+		"AzureSqlCustomerDatabase_properties_typeProperties_userName": {
 			"value": "muskan"
 		}
 	}

@@ -15,6 +15,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'BlobStorageProducts'"
 		},
+		"AzureSqlCustomerDatabase_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'AzureSqlCustomerDatabase'"
+		},
 		"AdvWorksDb_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "azure-sql-server.database.windows.net"
@@ -24,6 +28,18 @@
 			"defaultValue": "muskan-sql-db"
 		},
 		"AdvWorksDb_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "muskan"
+		},
+		"AzureSqlCustomerDatabase_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "azure-sql-server.database.windows.net"
+		},
+		"AzureSqlCustomerDatabase_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "muskan-sql-db"
+		},
+		"AzureSqlCustomerDatabase_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "muskan"
 		},
@@ -60,6 +76,9 @@
 					"BlobStorageProducts_connectionString": {
 						"value": "[parameters('BlobStorageProducts_connectionString')]"
 					},
+					"AzureSqlCustomerDatabase_password": {
+						"value": "[parameters('AzureSqlCustomerDatabase_password')]"
+					},
 					"AdvWorksDb_properties_typeProperties_server": {
 						"value": "[parameters('AdvWorksDb_properties_typeProperties_server')]"
 					},
@@ -68,6 +87,15 @@
 					},
 					"AdvWorksDb_properties_typeProperties_userName": {
 						"value": "[parameters('AdvWorksDb_properties_typeProperties_userName')]"
+					},
+					"AzureSqlCustomerDatabase_properties_typeProperties_server": {
+						"value": "[parameters('AzureSqlCustomerDatabase_properties_typeProperties_server')]"
+					},
+					"AzureSqlCustomerDatabase_properties_typeProperties_database": {
+						"value": "[parameters('AzureSqlCustomerDatabase_properties_typeProperties_database')]"
+					},
+					"AzureSqlCustomerDatabase_properties_typeProperties_userName": {
+						"value": "[parameters('AzureSqlCustomerDatabase_properties_typeProperties_userName')]"
 					}
 				}
 			},
