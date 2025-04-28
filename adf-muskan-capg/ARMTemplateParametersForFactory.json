@@ -4,6 +4,21 @@
 	"parameters": {
 		"factoryName": {
 			"value": "adf-muskan-capg"
+		},
+		"AdvWorksDb_password": {
+			"value": ""
+		},
+		"BlobStorageProducts_connectionString": {
+			"value": ""
+		},
+		"AdvWorksDb_properties_typeProperties_server": {
+			"value": "azure-sql-server.database.windows.net"
+		},
+		"AdvWorksDb_properties_typeProperties_database": {
+			"value": "muskan-sql-db"
+		},
+		"AdvWorksDb_properties_typeProperties_userName": {
+			"value": "muskan"
 		}
 	}
 }
