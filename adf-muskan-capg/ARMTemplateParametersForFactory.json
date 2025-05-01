@@ -8,10 +8,10 @@
 		"AdvWorksDb_password": {
 			"value": ""
 		},
-		"BlobStorageProducts_connectionString": {
+		"AzureSqlCustomerDatabase_password": {
 			"value": ""
 		},
-		"AzureSqlCustomerDatabase_password": {
+		"BlobStorageProducts_connectionString": {
 			"value": ""
 		},
 		"AdvWorksDb_properties_typeProperties_server": {
