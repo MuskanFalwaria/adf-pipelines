@@ -5,13 +5,13 @@
 		"annotations": [],
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
-			"server": "azure-sql-server.database.windows.net",
-			"database": "muskan-sql-db",
+			"server": "sql-muskan.database.windows.net",
+			"database": "muskan-db",
 			"encrypt": "mandatory",
 			"trustServerCertificate": false,
 			"authenticationType": "SQL",
 			"userName": "muskan",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEM1RTNDMjFDLUQzNDktNDNGRC05QjExLUFEMDAxNkM5NjdCNl8yNWI2M2Q5OC02M2IyLTQxNGMtOGI2OC03YzdiZTIwMjEyZmUiDQp9"
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEM1RTNDMjFDLUQzNDktNDNGRC05QjExLUFEMDAxNkM5NjdCNl8xODQyOGZiOC03YjBhLTRmMTUtYjEzNi0zYzMwMjZlZjhkNzIiDQp9"
 		}
 	}
 }
