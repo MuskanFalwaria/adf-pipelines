@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'AdvWorksDb'"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
+		},
 		"AzureSqlCustomerDatabase_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'AzureSqlCustomerDatabase'"
@@ -21,11 +25,11 @@
 		},
 		"AdvWorksDb_properties_typeProperties_server": {
 			"type": "string",
-			"defaultValue": "azure-sql-server.database.windows.net"
+			"defaultValue": "sql-muskan.database.windows.net"
 		},
 		"AdvWorksDb_properties_typeProperties_database": {
 			"type": "string",
-			"defaultValue": "muskan-sql-db"
+			"defaultValue": "muskan-db"
 		},
 		"AdvWorksDb_properties_typeProperties_userName": {
 			"type": "string",
@@ -72,6 +76,9 @@
 					},
 					"AdvWorksDb_password": {
 						"value": "[parameters('AdvWorksDb_password')]"
+					},
+					"AzureBlobStorage1_connectionString": {
+						"value": "[parameters('AzureBlobStorage1_connectionString')]"
 					},
 					"AzureSqlCustomerDatabase_password": {
 						"value": "[parameters('AzureSqlCustomerDatabase_password')]"
