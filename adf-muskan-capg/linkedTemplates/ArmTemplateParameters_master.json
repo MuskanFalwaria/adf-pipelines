@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "adf-muskan-capg"
 		},
+		"ADLSGen2_accountKey": {
+			"value": ""
+		},
+		"ADLSSink_accountKey": {
+			"value": ""
+		},
 		"AdvWorksDb_password": {
 			"value": ""
 		},
@@ -16,6 +22,15 @@
 		},
 		"BlobStorageProducts_connectionString": {
 			"value": ""
+		},
+		"TaxiTripDb_password": {
+			"value": ""
+		},
+		"ADLSGen2_properties_typeProperties_url": {
+			"value": "https://sqlstorage9828.dfs.core.windows.net/"
+		},
+		"ADLSSink_properties_typeProperties_url": {
+			"value": "https://adlstripdata9828.dfs.core.windows.net/"
 		},
 		"AdvWorksDb_properties_typeProperties_server": {
 			"value": "sql-muskan.database.windows.net"
@@ -33,6 +48,15 @@
 			"value": "muskan-sql-db"
 		},
 		"AzureSqlCustomerDatabase_properties_typeProperties_userName": {
+			"value": "muskan"
+		},
+		"TaxiTripDb_properties_typeProperties_server": {
+			"value": "sql-muskan.database.windows.net"
+		},
+		"TaxiTripDb_properties_typeProperties_database": {
+			"value": "taxi-data"
+		},
+		"TaxiTripDb_properties_typeProperties_userName": {
 			"value": "muskan"
 		},
 		"containerUri": {
