@@ -5,10 +5,6 @@
 		"typeProperties": {
 			"sources": [
 				{
-					"dataset": {
-						"referenceName": "MoviesDB",
-						"type": "DatasetReference"
-					},
 					"name": "MoviesDB"
 				}
 			],
@@ -16,8 +12,7 @@
 			"transformations": [],
 			"scriptLines": [
 				"source(allowSchemaDrift: true,",
-				"     validateSchema: false,",
-				"     ignoreNoFilesFound: false) ~> MoviesDB"
+				"     validateSchema: false) ~> MoviesDB"
 			]
 		}
 	}
