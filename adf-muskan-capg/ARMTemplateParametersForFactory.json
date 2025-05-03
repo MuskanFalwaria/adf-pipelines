@@ -23,13 +23,19 @@
 		"BlobStorageProducts_connectionString": {
 			"value": ""
 		},
+		"MoviesTransformDB_accountKey": {
+			"value": ""
+		},
 		"TaxiTripDb_password": {
 			"value": ""
 		},
 		"TripAggregateBlob_connectionString": {
 			"value": ""
 		},
-		"MoviesTransformDB_accountKey": {
+		"FlipkartSource_connectionString": {
+			"value": ""
+		},
+		"FlipkartSink_connectionString": {
 			"value": ""
 		},
 		"ADLSGen2_properties_typeProperties_url": {
@@ -56,6 +62,9 @@
 		"AzureSqlCustomerDatabase_properties_typeProperties_userName": {
 			"value": "muskan"
 		},
+		"MoviesTransformDB_properties_typeProperties_url": {
+			"value": "https://sqlstorage9828.dfs.core.windows.net/"
+		},
 		"TaxiTripDb_properties_typeProperties_server": {
 			"value": "sql-muskan.database.windows.net"
 		},
@@ -64,9 +73,6 @@
 		},
 		"TaxiTripDb_properties_typeProperties_userName": {
 			"value": "muskan"
-		},
-		"MoviesTransformDB_properties_typeProperties_url": {
-			"value": "https://sqlstorage9828.dfs.core.windows.net/"
 		}
 	}
 }

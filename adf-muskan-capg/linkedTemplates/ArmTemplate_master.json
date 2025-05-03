@@ -31,6 +31,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'BlobStorageProducts'"
 		},
+		"MoviesTransformDB_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'MoviesTransformDB'"
+		},
 		"TaxiTripDb_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'TaxiTripDb'"
@@ -39,9 +43,13 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'TripAggregateBlob'"
 		},
-		"MoviesTransformDB_accountKey": {
+		"FlipkartSource_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'accountKey' of 'MoviesTransformDB'"
+			"metadata": "Secure string for 'connectionString' of 'FlipkartSource'"
+		},
+		"FlipkartSink_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'FlipkartSink'"
 		},
 		"ADLSGen2_properties_typeProperties_url": {
 			"type": "string",
@@ -75,6 +83,10 @@
 			"type": "string",
 			"defaultValue": "muskan"
 		},
+		"MoviesTransformDB_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://sqlstorage9828.dfs.core.windows.net/"
+		},
 		"TaxiTripDb_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "sql-muskan.database.windows.net"
@@ -86,10 +98,6 @@
 		"TaxiTripDb_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "muskan"
-		},
-		"MoviesTransformDB_properties_typeProperties_url": {
-			"type": "string",
-			"defaultValue": "https://sqlstorage9828.dfs.core.windows.net/"
 		},
 		"containerUri": {
 			"type": "string",
@@ -136,14 +144,20 @@
 					"BlobStorageProducts_connectionString": {
 						"value": "[parameters('BlobStorageProducts_connectionString')]"
 					},
+					"MoviesTransformDB_accountKey": {
+						"value": "[parameters('MoviesTransformDB_accountKey')]"
+					},
 					"TaxiTripDb_password": {
 						"value": "[parameters('TaxiTripDb_password')]"
 					},
 					"TripAggregateBlob_connectionString": {
 						"value": "[parameters('TripAggregateBlob_connectionString')]"
 					},
-					"MoviesTransformDB_accountKey": {
-						"value": "[parameters('MoviesTransformDB_accountKey')]"
+					"FlipkartSource_connectionString": {
+						"value": "[parameters('FlipkartSource_connectionString')]"
+					},
+					"FlipkartSink_connectionString": {
+						"value": "[parameters('FlipkartSink_connectionString')]"
 					},
 					"ADLSGen2_properties_typeProperties_url": {
 						"value": "[parameters('ADLSGen2_properties_typeProperties_url')]"
@@ -169,6 +183,9 @@
 					"AzureSqlCustomerDatabase_properties_typeProperties_userName": {
 						"value": "[parameters('AzureSqlCustomerDatabase_properties_typeProperties_userName')]"
 					},
+					"MoviesTransformDB_properties_typeProperties_url": {
+						"value": "[parameters('MoviesTransformDB_properties_typeProperties_url')]"
+					},
 					"TaxiTripDb_properties_typeProperties_server": {
 						"value": "[parameters('TaxiTripDb_properties_typeProperties_server')]"
 					},
@@ -177,9 +194,6 @@
 					},
 					"TaxiTripDb_properties_typeProperties_userName": {
 						"value": "[parameters('TaxiTripDb_properties_typeProperties_userName')]"
-					},
-					"MoviesTransformDB_properties_typeProperties_url": {
-						"value": "[parameters('MoviesTransformDB_properties_typeProperties_url')]"
 					}
 				}
 			},
