@@ -23,6 +23,12 @@
 		"BlobStorageProducts_connectionString": {
 			"value": ""
 		},
+		"FlipkartSink_connectionString": {
+			"value": ""
+		},
+		"FlipkartSource_connectionString": {
+			"value": ""
+		},
 		"MoviesTransformDB_accountKey": {
 			"value": ""
 		},
@@ -32,10 +38,7 @@
 		"TripAggregateBlob_connectionString": {
 			"value": ""
 		},
-		"FlipkartSource_connectionString": {
-			"value": ""
-		},
-		"FlipkartSink_connectionString": {
+		"AzureBlobSink_connectionString": {
 			"value": ""
 		},
 		"ADLSGen2_properties_typeProperties_url": {
